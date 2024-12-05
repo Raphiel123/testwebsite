@@ -74,6 +74,27 @@ body {
     margin-bottom: 5px;
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    flex: 1 1 300px; /* Item menyesuaikan ukuran layar */
+    margin: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .form-group input {
     width: 100%;
     padding: 10px;
