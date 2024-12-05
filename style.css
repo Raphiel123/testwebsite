@@ -23,6 +23,28 @@ body{
     background-color:var(--light-color);
 }
 
+body {
+    font-size: 16px; 
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
 html{
     font-size: 62.5%;
     overflow-x: hidden;
